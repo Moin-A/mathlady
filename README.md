@@ -1,6 +1,6 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Crafting an engaging and interactive learning experience, MathLady presents a dynamic demo app that simulates a quiz environment. With our app, users can dive into the world of mathematics, challenging their knowledge and problem-solving skills
 
 Currently, two official plugins are available:
 
