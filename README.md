@@ -1,2 +1,2 @@
 # mathlady
-A demo app to simulative a quiz app
+Crafting an engaging and interactive learning experience, MathLady presents a dynamic demo app that simulates a quiz environment. With our app, users can dive into the world of mathematics, challenging their knowledge and problem-solving skills
