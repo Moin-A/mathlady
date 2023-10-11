@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer utilities {
+  .-translate-x-full img.btn { transform:rotate(180deg) }
+  .-translate-x-full {margin-right: -24rem;}
+  #drawer-navigation{
+    transition: transform 200ms ease-in-out 150ms,margin-right 200ms ease-in-out ;
+
+  }
+  .dark [type=radio]:checked,[type=radio]:checked:before {
+    content: "";
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    width: 8px;
+    height: 8px;
+    background: #b1b1b1;
+    border-radius: 100%;
+
+  }
+  .dark [type=radio]:checked,[type=radio]:checked:after{
+    background: #faf7f7;
+
+  }
+  button:disabled { 
+    background-color: gray;
+    color: white;
+    cursor: not-allowed;
+  }
+  button:disabled:hover {
+  background-color: darkgray;  
+}
+input:checked ~ .parent {
+  background-color: #0000FF;
+
+}
+
+
+input:checked ~ .dot {    
+  transform: translateX(100%);
+}
+
+}
